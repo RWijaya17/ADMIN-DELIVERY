@@ -1,0 +1,73 @@
+.table-container {
+    background-color: rgb(192, 196, 196);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 1rem; /* Increase the border-radius for curvier edges */
+    width: 97%; /* Adjust the width to make the container smaller */
+    height: 65%;
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+  }
+  
+  table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+  
+    th, td {
+      border: 1px solid rgb(192, 196, 196);
+      padding: 8px;
+      text-align: center;
+      border-radius: 1rem; /* Increase the border-radius for curvier edges */
+    }
+  
+    th {
+      background-color: #04315b;
+      color: white;
+      font-weight: bold;
+    }
+  
+    tr:nth-child(even) {
+      background-color: rgb(192, 196, 196);
+    }
+  
+    tr:hover {
+      background-color: #ddd;
+    }
+  }
+  
+  .clickable {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #04315b;
+    cursor: pointer;
+  }
+  
+  /* Add gaps between Batch ID and Shipping ID columns */
+  table th:nth-child(1),
+  table td:nth-child(1) {
+    padding-right: 40px; /* Adjust this value as needed */
+  }
+  
+  table th:nth-child(2),
+  table td:nth-child(2) {
+    padding-left: 20px; /* Adjust this value as needed */
+  }
+  
+  table th:nth-child(3),
+  table td:nth-child(3) {
+    padding-right: 5px; /* Adjust this value as needed */
+  }
+
+  table th:nth-child(4),
+  table td:nth-child(4) {
+    padding-right: 10px; /* Adjust this value as needed */
+  }
+  table th:nth-child(5),
+  table td:nth-child(5) {
+    padding-right: 40px; /* Adjust this value as needed */
+  }
+  table th:nth-child(6),
+  table td:nth-child(6) {
+    padding-right: 10px; /* Adjust this value as needed */
+  }
